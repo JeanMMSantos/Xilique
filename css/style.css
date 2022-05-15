@@ -9,6 +9,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+body{
+    background-color: #827397;
+}
+
 /* Menu */
 header{
     display: flex;
@@ -43,9 +47,8 @@ header{
 
 main{
     display: flex;
-    padding: 1rem 1rem 8.5rem 0rem;
+    padding: 1rem 1rem 2rem 0rem;
     justify-content: center;
-    background-color: #827397;
     font-size: 20px;
 }
 .novidades{
@@ -94,16 +97,35 @@ aside{
     border-radius: 10px;
 }
 
-/* .paragrafo{
-    padding-top: 3.5rem;
-} */
+/* Mais Vendidos */
+
+.mais-vendidos{
+    text-align: center;
+    justify-content: center;
+    background-color: #E9D5DA;
+    margin-top: 3em;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.cesta-filho{
+    height: 400px;
+    padding: 1rem;
+}
+
+.mais-vendidos-pai{
+    display: flex;
+    justify-content: center;
+    background-color: #827397;
+    font-size: 20px;
+}
 
 /* Rodapé */
 
 footer{
     text-align: center;
     background-color: #827397;
-    margin-top: -5rem;
+    margin-top: 3rem;
 }
 
 .rodape{
