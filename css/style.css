@@ -64,9 +64,12 @@ main{
 h1{
     text-align: center;
 }
+h3{
+    padding-top: 1em;
+}
 p{
     text-align: center;
-    padding-top: 3.5rem;
+    padding: 3rem 1rem;
 }
 
 /* Aside */
@@ -79,7 +82,9 @@ aside{
 
 .sobre{
     text-align: center;
-    background-color: blueviolet;
+    background-color: #E9D5DA;
+    margin-top: 3em;
+    border-radius: 10px;
 }
 
 /* .paragrafo{
